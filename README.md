@@ -60,3 +60,7 @@ The LinkedIn Post Generator is an AI-powered tool designed to generate professio
 ## 🧠 Few-Shot Learning Details
 
 By dynamically inserting example LinkedIn posts into the prompt using **LangChain**, the model adapts better to specific tones, industries, and post structures over time.
+
+## 📸 Screenshot
+
+![App Screenshot](assets/Screenshot 2025-07-29 at 12.09.34 AM.png)

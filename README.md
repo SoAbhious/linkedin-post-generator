@@ -63,4 +63,4 @@ By dynamically inserting example LinkedIn posts into the prompt using **LangChai
 
 ## 📸 Screenshot
 
-![App Screenshot](assets/Screenshot 2025-07-29 at 12.09.34 AM.png)
+![App Screenshot](assets/screenshot.png)

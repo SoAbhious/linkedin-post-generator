@@ -1,4 +1,6 @@
 import json
+
+import pandas as pd
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.exceptions import OutputParserException
@@ -85,5 +87,15 @@ def extract_metadata(post):
     return res
 
 
+def create_raw_posts():
+    excel_path = "assets/linkedin_posts.xlsx"
+    df = pd.read_excel(excel_path)
+    data = df.to_dict(orient='records')
+    json_file_path = "data/raw_posts.json"
+    with open(json_file_path, "w", encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
 if __name__ == "__main__":
+    create_raw_posts()
     process_posts("data/raw_posts.json", "data/processed_posts.json")

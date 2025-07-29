@@ -2,7 +2,7 @@
 🚀 **AI-Powered LinkedIn Content Generator using Llama3.2 on Groq Cloud**
 
 ## 📌 Overview  
-The LinkedIn Post Generator is an AI-powered tool designed to generate professional LinkedIn posts based on user-defined topics, tone, language, and length. It leverages **Llama3.2**, an open-source large language model deployed on **Groq Cloud**, ensuring lightning-fast inference and high-quality content generation.
+The LinkedIn Post Generator is an AI-powered tool designed to generate professional LinkedIn posts based on user-defined topics, purpose/intent, and length. It leverages **Llama3.2**, an open-source large language model deployed on **Groq Cloud**, ensuring lightning-fast inference and high-quality content generation.
 
 ---
 
